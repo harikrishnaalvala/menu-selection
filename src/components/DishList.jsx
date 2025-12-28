@@ -1,7 +1,7 @@
 import DishCard from "./DishCard";
 
 const DishList = ({ dishes, cart, handleAddToCart, handleRemoveFromCart, onSelectDish }) => (
-  <div className=" grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+  <div className=" bg-white grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {dishes.length > 0 ? (
       dishes.map((dish) => (
         <DishCard
